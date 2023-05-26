@@ -1,0 +1,72 @@
+body{
+    width: auto;
+    margin: 0px ;
+    background: lightskyblue;
+}
+.encabezado{
+    padding: 40px 0 0 40px;
+}
+
+main{
+width: 100%;
+margin: 0%;
+padding: 2.5%;
+}
+.textEncriptador{
+    display: inline-block;
+    width: 70%;
+    height: 900px;
+    vertical-align: top;
+    background: lightskyblue;
+    
+
+}
+.textDesencriptar{
+    display: inline-block;
+    width: 20%;
+    height: 900px;
+    border: 2px solid ;
+    border-radius: 30PX;
+    vertical-align: top;
+    background: aliceblue;
+    font-size: 30px;
+    padding: 10px;
+
+}
+.textEncriptador textarea,.textDesencriptar textarea{
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 30px;
+    border-width: 0px;
+    background: aliceblue;
+    font-size: 30px;
+    padding: 15px;
+
+}
+.textEncriptador textarea{
+    background: lightskyblue;
+}
+
+
+.textEncriptador p, .textDesencriptar p{
+    text-align: center;
+
+}
+.botones{
+    width: 35%;
+    margin: 20px 15px;
+    height: 75px;
+    border-radius: 30px;
+    border: 2px solid;
+    font-size: 30px;
+}
+.botones:nth-child(2){
+
+}
+.botones:hover {
+
+}
+.botones:active{
+    border: 0px;
+
+}
