@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styleEncrp.css">
 
-    <script src="logica.js"></script>
+    
 </head>
 <body>
     <header>
@@ -19,28 +19,28 @@
     </header>
     <main>
         <section class="textEncriptador">
-            <textarea placeholder="Ingresa el texto aqui. " name="textEncriptador" id="textEncriptador" cols="30" rows="10"></textarea>
+            <textarea placeholder="Ingresa el texto aqui. "  id="textoEncriptar" cols="30" rows="10"></textarea>
             <p> &#8252;  solo letas minusculas y sin acento</p>
             <P>
-                <input class="botones" type="button" value="Encriptar">
-                <input class="botones" type="button" value="Desencriptar">
+                <input class="botones" id="bEncriptar" type="button" value="Encriptar">
+                <input class="botones" id="bDesencriptar" type="button" value="Desencriptar">
 
 
             </P>
         </section><section class="textDesencriptar">
-            <textarea   name="textDesencriptar" id="textDesencriptar" cols="30" rows="1"></textarea>
+            <textarea   id="textoDesencriptar" cols="30" rows="1"></textarea>
             <div class="sinTexto">
                 <img src="imagenes/Muñeco.png" alt="muñeco ">
                 <p>Ningun mensaje fue encontrado </p>
                 <p>ingrese en texto que desea Desencriptar</p>
             </div >
             <p>
-                <input class="botones" type="button" value="copiar">
+                <input class="botones" id="bCopiar" type="button" value="copiar">
             </p>
         </section>
 
     </main>
 
-
+    <script src="logica.js"></script>
 </body>
 </html>
