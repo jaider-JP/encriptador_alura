@@ -37,6 +37,7 @@ main{
     background: aliceblue;
     padding: 10px;
     text-align: center;
+    box-shadow: 10px 10px 15px black;
 
 }
 .textEncriptador textarea,.textDesencriptar textarea{
@@ -61,13 +62,6 @@ main{
  outline: none;
  height: 75%;
 }
-
-
-.textDesencriptar:hover .sinTexto{
-  display: none;
-  
-}
-
 
 .sinTexto{
     height: 75%;
@@ -106,4 +100,10 @@ main{
     border: 0px;
     background: hwb(202 7% 48%);
 
+}
+.ocultar{
+    display: none;
+}
+.agrandar{
+    height: 75%;
 }
